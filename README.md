@@ -10,6 +10,8 @@ Used libraries:
 
 
 I implemented triangle collision detection by checking whether any combination of the edges of two triangles intersects. If there is an intersection, then there is a collision and the background color is changed to red. The implementation assumes that triangles can share a vertex, an edge, or overlap each other.
+
+You can move one triangle with arrow keys. 
 ![Screenshot_3](https://user-images.githubusercontent.com/115038725/236938828-49aa1d0e-1b67-40a3-a1a5-d4147ff631fe.jpg)
 ![Screenshot_2](https://user-images.githubusercontent.com/115038725/236938852-8bfbbb09-7a14-46cd-91af-e5cdb3b35ffc.jpg)
 ![Screenshot_4](https://user-images.githubusercontent.com/115038725/236938859-e290d021-405c-430f-b656-03cf9fcec4e1.jpg)
