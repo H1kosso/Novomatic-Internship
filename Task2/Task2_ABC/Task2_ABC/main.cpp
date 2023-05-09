@@ -137,7 +137,7 @@ public:
       position.y = linInterpolation(0.0f, 10.0f, progress);
     }
     // Move pixel from C to A in 1000ms
-    else if (elapsed_time <= 6005ms) {
+    else if (elapsed_time <= 6000ms) {
       float progress =
           static_cast<float>(elapsed_time.count() - 5000) / 1000.0f;
       position.x = linInterpolation(40.0f, 0.0f, progress);
